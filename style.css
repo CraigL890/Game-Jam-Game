@@ -1,0 +1,17 @@
+body {
+    text-align: center;       
+    z-index: 0;
+}
+
+#board {
+    background-color: rgb(7, 172, 117);
+    text-align: center;
+}
+#game-container {
+  transition: transform 1.5s ease-in-out; 
+  transform-origin: center center; 
+}
+
+#game-container.flipped {
+  transform: rotate(180deg); 
+}
